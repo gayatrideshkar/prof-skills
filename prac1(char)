@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Formatting Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #3498db;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        strong {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+
+        em {
+            font-style: italic;
+            color: #2ecc71;
+        }
+
+        span.highlight {
+            background-color: #f39c12;
+            color: #fff;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Character Formatting Example</h1>
+
+    <p>This is a <strong>bold</strong> text example. And this is an <em>italic</em> text example.</p>
+
+    <p>You can also <span class="highlight">highlight</span> specific words or phrases.</p>
+
+    <p>Combining <strong><em>bold italic</em></strong> is also possible for emphasis.</p>
+
+</body>
+</html>
