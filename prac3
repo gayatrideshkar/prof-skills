@@ -1,0 +1,71 @@
+<!DOCTYPE html> <html lang="en"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Registration Form</title>
+    <style>
+    body {
+    margin: 0; padding: 0; background-image:
+    url("https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-sky-blue -ink-style-background-image_260100.jpg");
+    background-size: cover; background-position: center; font-family: Arial, sans-serif;
+    }
+    .container {
+    display: flex; justify-content: center; align-items: center; height: 100vh;
+    }
+    .registration-form {
+    background-color: rgba(255, 255, 255, 0.8); padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); max-width: 400px;
+    width: 100%;
+    }
+    h2 {
+    text-align: center; margin-bottom: 20px;
+    }
+    .form-group { margin-bottom: 20px;
+    }
+    label {
+    display: block; font-weight: bold;
+    }
+    
+     input {
+    width: 100%;
+    padding: 8px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px;
+    }
+    input[type="radio"] { margin-right: 5px;
+    }
+    button {
+    background-color: #2e9ce5; color: #fff;
+    padding: 10px 20px; font-size: 16px;
+    border: none; border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    }
+    button:hover { background-color: #d29de5;
+    }
+    </style> </head>
+    <body>
+    <div class="container">
+    <form class="registration-form"> <h2>Registration Form</h2> <div class="form-group">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required> </div>
+    <div class="form-group">
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required> </div>
+    <div class="form-group">
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" name="dob" required>
+    
+     </div>
+    <div class="form-group">
+    <label>Gender</label>
+    <input type="radio" id="male" name="gender" value="male" required> <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required> <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other" required> <label for="other">Other</label>
+    </div>
+    <div class="form-group">
+    <button type="submit">Register</button> </div>
+    </form> </div>
+    </body> </html>
+    
