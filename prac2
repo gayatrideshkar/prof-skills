@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marksheet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #3498db;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ecf0f1;
+        }
+
+        caption {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Marksheet</h1>
+
+    <table>
+        <caption>Student Marks</caption>
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Midterm</th>
+                <th>Final Exam</th>
+                <th>Total</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Math</td>
+                <td>85</td>
+                <td>90</td>
+                <td>175</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>78</td>
+                <td>85</td>
+                <td>163</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>92</td>
+                <td>88</td>
+                <td>180</td>
+                <td>A</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Average</td>
+                <td>172.67</td>
+                <td>A-</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
