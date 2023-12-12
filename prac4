@@ -1,0 +1,92 @@
+<!DOCTYPE html> <html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Best Online Food Delivery Service in India | MyOnlineMeal.com</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css"> <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav id="navbar"> <div id="logo">
+</div>
+<ul>
+<li class="item"><a href="#home">Home</a></li>
+<li class="item"><a href="#services-container">Services</a></li> <li class="item"><a href="#client-section">Our Clients</a></li> <li class="item"><a href="#contact">Contact Us</a></li>
+</ul>
+</nav>
+<section id="home">
+<h1 class="h-primary">Welcome to Cafe</h1>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis dolorum numquam minus. </p>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+</section>
+<section id="services-container">
+<div id="services">
+<div class="box">
+<img src="https://imgs.search.brave.com/d607iX-52tUbkvo7oq-mccexZRkIKO14HZmh8ws5Qa4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3F1YXJlc3Bh/Y2UtY2RuLmNvbS9j/b250ZW50L3YxLzU3/ODc5YTZjYmViYWZi/ODc5ZjI1NjczNS8x/NTc5NzIxNDc2NTM2/LVYwWlhaREFKN1Ax/SDkzOU41RkdGL2hl/YWRlcjIuanBn" alt="">
+<h2 class="h-secondary center">Food</h2>
+<p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et qui, repudiandae similique nam, recusandae quidem ab asperiores ex, aut fugit labore veritatis facere?
+
+ sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+voluptas beatae facilis labore, omnis sint quae eum.</p>
+</div>
+<div class="box">
+<img src="https://imgs.search.brave.com/AXgK_FnyMBG6sGsSNpE-WPv4MjF3HcCZTMH_jmr700w/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTA0/NzU0MjIwL3Bob3Rv/L2NvY2t0YWlscy5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/TnhJekdULUxiVVMw/QkFQb0NNRFkzbUVw/OTZBbkl4eGxkYldt/Rk1lZUQtQT0" alt="">
+<h2 class="h-secondary center">Beverages</h2>
+<p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+Lorem ipsum dolor sit amet consectetur adipiscing elit. Unde laudantium a incidunt animi ad, ab dignissimos vero? Unde numquam odit repudiada perferendis nisi.
+sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+voluptas beatae facilis labore, omnis sint quae eum.</p>
+</div>
+<div class="box">
+<img src="https://imgs.search.brave.com/xNKIsavPPDEdfbd3hjCx9QNYN-d87syyMZMLOr8SI5U/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTIw/MTU2MzExOS9waG90/by9mb29kLWRlbGl2/ZXJ5LW1hbi1nZXR0/aW5nLXJlYWR5LWZv/ci13b3JrLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz12dmxG/ZHJfMmsxRDNwT0dl/SFBqTVRfcHpNc3Rw/aGlSeFpCOWxWY01J/bFEwPQ" alt="">
+<h2 class="h-secondary center">Food Ordering</h2>
+<p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+Lorem ipsum dolor sit amet consectetur adipiscing elit. Necessitatibus provident fugiat aliquam minima at explicabo. Earum eveniet quaerat, sunt molestias nesciunt quas! Quis. sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+voluptas beatae facilis labore, omnis sint quae eum.</p>
+</div>
+</div>
+</section>
+<section id="client-section">
+<h1 class="h-primary center">Our Clients</h1>
+<div id="clients">
+<div class="client-item">
+<img src="https://imgs.search.brave.com/jfXXoKRwBK6M549sqkJOqI-iFNFcRQa5bxjLhLSzbZ4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbmti/b3RkZXNpZ24uY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIy/LzA3L0d1Y2NpLVBO/Ry1JbWFnZS0xMDI0/eDY2Ml81MzB4QDJ4/LndlYnA" alt="Our Client">
+</div>
+<div class="client-item">
+<img src="https://imgs.search.brave.com/7J7VTxXcNiV7lyhrfk3FYr4h6WMDaVxsJSDaG6sFjIY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tYmx1/eHVyeTEuczMuYW1h/em9uYXdzLmNvbS8y/MDIyLzAyLzI1MTcy/NzA5L3RpZmZhbnku/anBn" alt="Our Client">
+</div>
+<div class="client-item">
+<img src="https://imgs.search.brave.com/_mrYnyAByYHhc0BrdPcnyV6ZbPMV15bOBLDRDQfJrKE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sb2dv/LmNvbS9pbWFnZS1j/ZG4vaW1hZ2VzL2t0/czkyOHBkL3Byb2R1/Y3Rpb24vNTAyM2I0/ZmRjNTg3MmQ1ODcx/YjZlYWQ2MjA0YWRk/OGRmYzJlMzA2MC0x/MTE2eDYwOC5wbmc_/dz0xMDgwJnE9NzI" alt="Our Client">
+</div>
+
+</div>
+</section>
+
+ <section id="contact">
+<h1 class="h-primary center">Contact Us</h1>
+<div id="contact-box">
+<form action="">
+<div class="form-group">
+<label for="name">Name: </label>
+<input type="text" name="name" id="name" placeholder="Enter your name"> </div>
+<div class="form-group">
+<label for="email">Email: </label>
+<input type="email" name="name" id="email" placeholder="Enter your email"> </div>
+<div class="form-group">
+<label for="phone">Phone Number: </label>
+<input type="phone" name="name" id="phone" placeholder="Enter your phone"> </div>
+<div class="form-group">
+<label for="message">Message: </label>
+<textarea name="message" id="message" cols="30" rows="10"></textarea> </div>
+</form>
+</div>
+</section>
+<footer>
+<div class="center">
+Copyright &copy; <www class="myCafe"></www>.com. All rights reserved! </div>
+</footer>
+</body>
+</html>
+
