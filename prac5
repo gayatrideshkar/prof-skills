@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Animation</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-image: url(https://imgs.search.brave.com/sD0SYeWPEwTaL7P4KOMkxfEUda76e3ZS-Z9nGpECEzI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzMzLzg5LzY0/LzM2MF9GXzMzMzg5/NjQ2N182NzdHMWRv/N0FZbHRkUUJyZGlq/YmNpTzQ0a21OVzFL/VC5qcGc);
+        }
+
+        #animatedText {
+            transition: font-size 2s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div id="animatedText">TEXT GROWING</div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var animatedText = document.getElementById("animatedText");
+
+            function growText() {
+                animatedText.innerHTML = "TEXT GROWING";
+                animatedText.style.fontSize = "30px"; // Adjust the initial font size
+                setTimeout(shrinkText, 2000); // Wait for 2 seconds and then shrink
+            }
+
+            function shrinkText() {
+                animatedText.innerHTML = "TEXT SHRINKING";
+                animatedText.style.fontSize = "16px"; // Adjust the final font size
+                setTimeout(growText, 2000); // Wait for 2 seconds and then grow
+            }
+
+            // Start the animation
+            growText();
+        });
+    </script>
+</body>
+</html>
