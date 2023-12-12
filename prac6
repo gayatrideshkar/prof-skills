@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculate Squares and Cubes</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        function calculate() {
+            let output = "<table><tr><th>Number</th><th>Square</th><th>Cube</th></tr>";
+            for (let i = 0; i <= 10; i++) {
+                output += "<tr><td>" + i + "</td><td>" + i * i + "</td><td>" + i * i * i + "</td></tr>";
+            }
+            output += "</table>";
+            document.getElementById("output").innerHTML = output;
+        }
+        calculate();
+    </script>
+</body>
+</html>
